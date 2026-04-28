@@ -14,4 +14,3 @@ def ask(q: str, option: int):
         return {"answer": ask_chatgpt(q)}
     else:
         return {"answer": ask_gemini(q)}
-
